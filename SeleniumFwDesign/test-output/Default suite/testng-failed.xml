@@ -3,15 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.learnFw.testcases.LoginTestCRM">
+      <class name="com.learnAutomation.NewFrameworkProject.NewClass">
         <methods>
-          <include name="tearDownMethod"/>
-          <include name="setup"/>
-          <include name="setUpSuite"/>
-          <include name="tear"/>
-          <include name="Login"/>
+          <include name="login"/>
         </methods>
-      </class> <!-- com.learnFw.testcases.LoginTestCRM -->
+      </class> <!-- com.learnAutomation.NewFrameworkProject.NewClass -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
