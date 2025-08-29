@@ -19,8 +19,8 @@ public class BrowserFactory {
 			webDriver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		}else if (browserName.equals("Firefox")) {
 			
-			System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
-			 webDriver = new FirefoxDriver();
+			//System.setProperty("webdriver.gecko.driver", "Drivers/geckodriver.exe");
+			// webDriver = new FirefoxDriver();
 			 
 		}else if (browserName.equals("Edge")) {
 			System.setProperty("webdriver.edge.driver", "Drivers/msedgedriver.exe");
